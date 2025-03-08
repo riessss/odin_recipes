@@ -1,5 +1,6 @@
 * {
     background-color: black;
+    box-sizing: border-box;
 
 }
 
@@ -11,6 +12,10 @@ h1, h2, h3, h4, h5, p {
 h1, a {
     text-align: center;
     font-weight: 900;
+}
+
+a {
+    color: inherit
 }
 
 h2 {
@@ -34,4 +39,17 @@ p, li {
 img {
     width: 700px;
     height: auto;
+}
+
+.title {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.recipe_overview {
+    margin-left: 35px;
+}
+
+.recipe_image {
+    margin-left: 50px;
 }
